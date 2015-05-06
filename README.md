@@ -16,7 +16,7 @@ $ curl -A Googlebot http://turnout.berabou.me/private
 > [site:http://turnout.berabou.me - Google Search](https://google.com/search?q=site:http:%2F%2Fturnout.berabou.me)
 
 ## See
-> [expressTurnout](https://github.com/59naga/express-turnout)
+> [expressTurnout](https://github.com/59naga/express-turnout) Pre-rendering Single-Page-Application for crawlers. 
 
 License
 ===
