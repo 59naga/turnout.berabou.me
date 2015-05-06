@@ -21,7 +21,7 @@ angular.module('myApp',['ui.router'])
       $rootScope.meta= {
         'og:site_name':$state.current.name,
         'og:title':$rootScope.title,
-        'og:url':$location.url(),
+        'og:url':$location.absUrl(),
         'og:type':'article',
         'og:description':angular.element($window.document.body).text(),
       }
