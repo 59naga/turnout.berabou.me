@@ -1,5 +1,5 @@
 # Environment
-port= 59798
+process.env.PORT?= 59798
 
 # Dependencies
 express= require 'express'
@@ -12,5 +12,5 @@ app.use (req,res)->
   res.sendFile __dirname+'/index.html'
 
 # Boot
-app.listen port,->
-  console.log 'listening at %s', port
+app.listen process.env.PORT,->
+  console.log 'listening at %s',process.env.PORT
