@@ -13,6 +13,8 @@ $ curl -A Googlebot http://turnout.berabou.me/second
 $ curl -A Googlebot http://turnout.berabou.me/private
 ```
 
+> [site:http://turnout.berabou.me - Google Search](https://google.com/search?q=site:http:%2F%2Fturnout.berabou.me)
+
 ## See
 > [expressTurnout](https://github.com/59naga/express-turnout)
 
