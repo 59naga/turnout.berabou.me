@@ -10,7 +10,7 @@
   "dependencies": {
     "coffee-script": "^1.9.2",
     "express": "^4.12.3",
-    "express-turnout": "0.0.1-beta.0"
+    "express-turnout": "0.0.2"
   },
 
   "repository": {
