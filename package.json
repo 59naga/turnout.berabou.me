@@ -1,0 +1,26 @@
+{
+  "name": "turnout.berabou.me",
+  "main": "turnout.berabou.me.coffee",
+  "private": true,
+  "description": "Express-turnout demo",
+
+  "scripts": {
+    "start": "coffee turnout.berabou.me.coffee"
+  },
+  "dependencies": {
+    "coffee-script": "^1.9.2",
+    "express": "^4.12.3",
+    "express-turnout": "0.0.1-beta.0"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/59naga/turnout.berabou.me.git"
+  },
+  "author": "59naga <i59naga@icloud.com> (http://berabou.me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/59naga/turnout.berabou.me/issues"
+  },
+  "homepage": "https://github.com/59naga/turnout.berabou.me"
+}
