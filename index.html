@@ -33,6 +33,10 @@ angular.module('myApp',['ui.router'])
   $locationProvider.html5Mode(true);
 })
 .config(function($stateProvider){
+  $stateProvider.state('private',{
+    url:'/private',
+    template:'<h1>private</h1>',
+  });
   $stateProvider.state('second',{
     url:'/second',
     template:'<h1>second</h1><a ui-sref="first">first</a>',
