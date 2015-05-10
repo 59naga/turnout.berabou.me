@@ -7,8 +7,8 @@ turnout= require 'express-turnout'
 
 # Setup express
 app= express()
-app.use express.static __dirname
 app.use turnout blacklist:[/^private/]
+app.use express.static __dirname
 app.use (req,res)->
   res.sendFile __dirname+'/index.html'
 
